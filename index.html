@@ -1,0 +1,50 @@
+<html>
+    <head>
+                      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>chillytoonsy's educational games</title>
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+      <style>
+      </style>
+    </head>
+    <body>
+        <div class="page">
+              <a class="fixupimage"><img src="images/ctug_logo.png" width="550px"></a>
+              <h1 class="chillytoonsysunblockedgames">chillytoonsy's unblocked games</h1>
+              <p class="yap" id="dynamic-text"></p>
+              <p class="yap">v1.0.0</p>
+              <div class="buttoncollection">
+              <a href="https://discord.gg/afZ5GRWFSt" class="button">Discord</a>
+              <a href="https://github.com/chillytoonsysunblockedgames/chillytoonsysunblockedgames.github.io" class="button">Github</a>
+              <a href="allgames.html" class="button">Explore Games</a>
+                      <script>
+            const changingTexts = [
+                "Welcome!",
+                "So many frickin games, it's hard to choose!",
+                "Free Unblocked Games for Everyone!",
+                "Join our Discord!",
+                "We have a wide range of Unblocked Games! Hope you enjoy.",
+                "Get started by clicking the Explore Games button.",
+                "Reload this page and it will show a different message every time >:)",
+                "Check the CTUG Github repo for new versions of CTUG if available."
+            ];
+
+            const randomIndex = Math.floor(Math.random() * changingTexts.length);
+            const selectedText = changingTexts[randomIndex];
+
+            document.getElementById("dynamic-text").textContent = selectedText;
+        </script>
+              </div>
+         </div>
+                 <div class="topheader">
+            <div class="imgleft">
+                <a href="/"><img src="images/ctug_logo.png" width="110"></a>
+                </div>
+            <div class="buttoncollectionright">
+                <a href="allgames.html" class="button">All Games</a>
+                <a href="settings.html" class="button">Settings</a>
+            </div>
+        </div>
+    </body>
+</html>
